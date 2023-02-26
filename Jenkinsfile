@@ -38,7 +38,7 @@ pipeline {
       steps {
         withDockerRegistry([credentialsId: "dockerHubCredentials", url: ""]) {
           sh 'printenv'
-          sh 'docker build -t skyglass/numeric-app:""$GIT_COMMIT"" .'
+          sh 'docker tag skyglass/numeric-app:1.0 skyglass/numeric-app:""$GIT_COMMIT"" .'
           sh 'docker push skyglass/numeric-app:""$GIT_COMMIT""'
         }
       }

@@ -1,5 +1,6 @@
 pipeline {
   agent any
+  def workspace = WORKSPACE
 
   stages {
 
@@ -7,7 +8,7 @@ pipeline {
         agent { //here we select only docker build agents
             docker {
                 image 'maven:latest' //container will start from this image
-                args '-v /root/.m2:/root/.m2 -v ./target:./target' //here you can map local maven repo, this let you to reuse local artifacts
+                args '-v /root/.m2:/root/.m2 -v ${workspace}/target:./target' //here you can map local maven repo, this let you to reuse local artifacts
             }
         }
         steps {

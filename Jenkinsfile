@@ -24,7 +24,7 @@ pipeline {
 
     stage('Docker Build and Push') {
       steps {
-        withDockerRegistry([credentialsId: "docker-hub", url: ""]) {
+        withDockerRegistry([credentialsId: "dockerHubCredentials", url: ""]) {
           sh 'printenv'
           sh 'docker build -t skyglass/numeric-app:""$GIT_COMMIT"" .'
           sh 'docker push skyglass/numeric-app:""$GIT_COMMIT""'

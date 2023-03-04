@@ -52,22 +52,22 @@ pipeline {
       }
     }
 
-    stage('K8S Deployment - DEV') {
-      steps {
-        parallel(
-          "Deployment": {
-            withKubeConfig([credentialsId: 'kubeconfig']) {
-              sh "bash k8s-deployment.sh"
-            }
-          },
-          "Rollout Status": {
-            withKubeConfig([credentialsId: 'kubeconfig']) {
-              sh "bash k8s-deployment-rollout-status.sh"
-            }
-          }
-        )
-      }
-    }
+    // stage('K8S Deployment - DEV') {
+    //   steps {
+    //     parallel(
+    //       "Deployment": {
+    //         withKubeConfig([credentialsId: 'kubeconfig']) {
+    //           sh "bash k8s-deployment.sh"
+    //         }
+    //       },
+    //       "Rollout Status": {
+    //         withKubeConfig([credentialsId: 'kubeconfig']) {
+    //           sh "bash k8s-deployment-rollout-status.sh"
+    //         }
+    //       }
+    //     )
+    //   }
+    // }
 
     stage('K8S Deployment - PROD') {
       steps {

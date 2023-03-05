@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95033ee-adf3-40e5-87a7-beb42903cbe3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration-test.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s-PROD-deployment-rollout-status.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s-deployment-rollout-status.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s-deployment.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s_PROD-deployment_service.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s_deployment_service.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kube-scan.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/azure-vm-template/parameters.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/azure-vm-template/template.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/gcp-vm-gcloud-cmd/gcloud-cmds.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/jenkins-plugins/installer.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/jenkins-plugins/plugins.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/vm-install-script/install-script.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsecops/NumericApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devsecops/NumericController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/devsecops/NumericApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b95033ee-adf3-40e5-87a7-beb42903cbe3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677399377098</updated>
       <workItem from="1677399378464" duration="879000" />
-      <workItem from="1677934413931" duration="5459000" />
+      <workItem from="1677934413931" duration="6107000" />
     </task>
     <servers />
   </component>
